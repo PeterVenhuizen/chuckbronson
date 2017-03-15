@@ -1,0 +1,48 @@
+#home { display: none; }
+.navbar-brand {
+	padding: 0;
+}
+.navbar-brand > img {
+	height: 100%;
+	width: auto;
+	padding: 5px 5px 5px 15px;
+}
+a.active { 
+    /*color: #FEC32C !important; */
+    color: #E5C101 !important; 
+}
+
+.top-buffer { margin-top: 20px; }
+.bottom-buffer { margin-bottom: 20px; }
+
+article { margin-bottom: 2em; }
+article p { 
+    text-align: justify; 
+    line-height: 1.5em; 
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    /* Set the fixed height of the footer here */
+    height: 60px;
+    background-color: #f5f5f5;
+}
+
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+.container .text-muted {
+    margin: 10px 0;
+}
