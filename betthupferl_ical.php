@@ -16,7 +16,7 @@ DTSTAMP:" . gmdate('Ymd').'T'. gmdate('His') . "
 DTSTART:" . $date . "T" . $start_time . "
 DTEND:" . $date . "T" . $end_time . "
 SUMMARY:" . $_POST['match'] . "
-LOCATION:" . $_POST['location'] . "
+LOCATION:" . ( $_POST['location'] == "TG" ? "Tellgasse 3, 1150 Wien" : "Roland Rainer Platz 1, 1150 Wien" ) . "
 END:VEVENT\n
 END:VCALENDAR";
 
